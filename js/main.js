@@ -105,25 +105,12 @@ function appendTranslation(lang) {
 	};
 }
 
-appendTranslation("en");
-appendTranslation("ru");
-appendTranslation("de");
-appendTranslation("es");
-
-
 $(document).ready(function() {
-			//createTable('jqueryui-tabs', tabs);
 
-	/*
-	var content = "<p>Hello people!!!</p>"+
-		"<pre><code class='javascript'>"+
-		"var p = document.getElementById('id');\n"+
-		"var price1 = 5;\n"+
-		"var price2 = 6;\n"+
-		"var total = price1 + price2;"+
-		"</code></pre>";
-	//*/
-
+	appendTranslation("en");
+	appendTranslation("ru");
+	appendTranslation("de");
+	appendTranslation("es");
 	
 	$('pre code').each(function(i, block) {
 		hljs.highlightBlock(block);
