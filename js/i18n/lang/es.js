@@ -1,6 +1,6 @@
 i18n.add({"es": {
 	"resume_greeting" : 
-		"Hola!",
+		"Hola! Mi nombre es Max Vetrov y soy un programador de software.",
 
 	"resume_experience" : 
 		"I have expiriences in different programming languages: <br/>"+
